@@ -79,7 +79,8 @@ These files allow full reproducibility of the simulation environment used in the
 
 To manually launch a scenario:
 ```bash
-sumo-gui -c sumo/simple/SimpleTraci.sumocfg
+sumo-gui -c sumo/three-way_intersection/SimpleTraci.sumocfg
+sumo-gui -c sumo/four-way_intersection/Traci.sumocfg
 ```
 ---
 ## Intersection Layouts
