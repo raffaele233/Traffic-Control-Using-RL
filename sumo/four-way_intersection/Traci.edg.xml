@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-06-02 20:01:57 by Eclipse SUMO netedit Version 1.22.0
+<neteditConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
+
+    <input>
+        <sumocfg-file value="/Users/raffaelesimbari/Desktop/tesi/myproject/Traci.sumocfg"/>
+        <route-files value="/Users/raffaelesimbari/Desktop/tesi/myproject/sumoprova.rou.xml"/>
+        <sumo-net-file value="/Users/raffaelesimbari/Desktop/tesi/myproject/Traci.net.xml"/>
+        <node-files value="/Users/raffaelesimbari/Desktop/tesi/myproject/Traci.rou.nod.xml"/>
+        <edge-files value="/Users/raffaelesimbari/Desktop/tesi/myproject/Traci.rou.edg.xml"/>
+        <connection-files value="/Users/raffaelesimbari/Desktop/tesi/myproject/Traci.rou.con.xml"/>
+        <tllogic-files value="/Users/raffaelesimbari/Desktop/tesi/myproject/Traci.rou.tll.xml"/>
+    </input>
+
+    <processing>
+        <offset.disable-normalization value="true"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+    </junctions>
+
+    <netedit>
+        <new-network value="false"/>
+    </netedit>
+
+</neteditConfiguration>
+-->
+
+<edges version="1.20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/edges_file.xsd">
+    <edge id="-E1" from="J4" to="clusterJ7_J8_J9" priority="-1" numLanes="3" speed="13.89" shape="-90.69,5.17 -13.46,5.60"/>
+    <edge id="-E1.66" from="clusterJ7_J8_J9" to="J5" priority="-1" numLanes="3" speed="13.89" shape="-13.46,5.60 65.84,6.58"/>
+    <edge id="-E2" from="clusterJ7_J8_J9" to="J6" priority="-1" numLanes="3" speed="13.89" shape="-16.45,1.41 -15.74,-59.85"/>
+    <edge id="-E3" from="clusterJ7_J8_J9" to="J10" priority="-1" numLanes="3" speed="13.89"/>
+    <edge id="E1" from="J5" to="clusterJ7_J8_J9" priority="-1" numLanes="3" speed="13.89" shape="65.84,6.58 -17.87,5.56"/>
+    <edge id="E1.98" from="clusterJ7_J8_J9" to="J4" priority="-1" numLanes="3" speed="13.89" shape="-17.87,5.56 -90.69,5.17"/>
+    <edge id="E2" from="J6" to="clusterJ7_J8_J9" priority="-1" numLanes="3" speed="13.89" shape="-16.06,-59.31 -16.15,1.90"/>
+    <edge id="E3" from="J10" to="clusterJ7_J8_J9" priority="-1" numLanes="3" speed="13.89" shape="-16.78,65.46 -16.33,43.36 -16.09,4.09"/>
+</edges>

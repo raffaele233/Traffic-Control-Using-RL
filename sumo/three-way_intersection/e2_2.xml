@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-02-24 19:57:06 by Eclipse SUMO GUI Version 1.22.0
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="/Users/raffaelesimbari/Desktop/Traffic-Control-Using-RL/sumo/three-way_intersection/SimpleTraci.net.xml"/>
+        <route-files value="/Users/raffaelesimbari/Desktop/Traffic-Control-Using-RL/sumo/three-way_intersection/SimpleTraci.rou.xml"/>
+        <additional-files value="/Users/raffaelesimbari/Desktop/Traffic-Control-Using-RL/sumo/three-way_intersection/SimpleTraci.add.xml"/>
+    </input>
+
+</sumoConfiguration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e2_file.xsd">
+   <interval begin="0.00" end="224.00" id="Node4_3_NB_0" sampledSeconds="85.95" nVehEntered="5" nVehLeft="2" nVehSeen="5" meanSpeed="2.95" meanTimeLoss="13.44" meanOccupancy="3.35" maxOccupancy="27.06" meanMaxJamLengthInVehicles="0.20" meanMaxJamLengthInMeters="1.30" maxJamLengthInVehicles="3" maxJamLengthInMeters="20.07" jamLengthInVehiclesSum="45" jamLengthInMetersSum="290.14" meanHaltingDuration="16.00" maxHaltingDuration="20.00" haltingDurationSum="48.00" meanIntervalHaltingDuration="16.00" maxIntervalHaltingDuration="20.00" intervalHaltingDurationSum="48.00" startedHalts="3.00" meanVehicleNumber="0.39" maxVehicleNumber="3" />
+</detector>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-06-02 20:01:57 by Eclipse SUMO netedit Version 1.22.0
+<neteditConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
+
+    <input>
+        <sumocfg-file value="/Users/raffaelesimbari/Desktop/tesi/myproject/Traci.sumocfg"/>
+        <route-files value="/Users/raffaelesimbari/Desktop/tesi/myproject/sumoprova.rou.xml"/>
+        <sumo-net-file value="/Users/raffaelesimbari/Desktop/tesi/myproject/Traci.net.xml"/>
+        <node-files value="/Users/raffaelesimbari/Desktop/tesi/myproject/Traci.rou.nod.xml"/>
+        <edge-files value="/Users/raffaelesimbari/Desktop/tesi/myproject/Traci.rou.edg.xml"/>
+        <connection-files value="/Users/raffaelesimbari/Desktop/tesi/myproject/Traci.rou.con.xml"/>
+        <tllogic-files value="/Users/raffaelesimbari/Desktop/tesi/myproject/Traci.rou.tll.xml"/>
+    </input>
+
+    <processing>
+        <offset.disable-normalization value="true"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+    </junctions>
+
+    <netedit>
+        <new-network value="false"/>
+    </netedit>
+
+</neteditConfiguration>
+-->
+
+<connections version="1.20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/connections_file.xsd">
+    <connection from="-E1" to="-E2" fromLane="0" toLane="0"/>
+    <connection from="-E1" to="-E1.66" fromLane="0" toLane="0"/>
+    <connection from="-E1" to="-E1.66" fromLane="1" toLane="1"/>
+    <connection from="-E1" to="-E3" fromLane="2" toLane="2"/>
+
+    <connection from="-E1.66"/>
+
+    <connection from="-E2"/>
+
+    <connection from="-E3"/>
+
+    <connection from="E1" to="-E3" fromLane="0" toLane="0"/>
+    <connection from="E1" to="E1.98" fromLane="0" toLane="0"/>
+    <connection from="E1" to="E1.98" fromLane="1" toLane="1"/>
+    <connection from="E1" to="-E2" fromLane="2" toLane="2"/>
+
+    <connection from="E1.98"/>
+
+    <connection from="E2" to="-E1.66" fromLane="0" toLane="0"/>
+    <connection from="E2" to="-E3" fromLane="0" toLane="0"/>
+    <connection from="E2" to="-E3" fromLane="1" toLane="1"/>
+    <connection from="E2" to="E1.98" fromLane="2" toLane="2"/>
+
+    <connection from="E3" to="E1.98" fromLane="0" toLane="0"/>
+    <connection from="E3" to="-E2" fromLane="0" toLane="0"/>
+    <connection from="E3" to="-E2" fromLane="1" toLane="1"/>
+    <connection from="E3" to="-E1.66" fromLane="2" toLane="2"/>
+
+</connections>

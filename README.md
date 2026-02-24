@@ -63,6 +63,66 @@ The repository currently consists of two main Jupyter notebooks:
 
 ---
 
+## Simulation Files
+
+The `sumo/` directory contains the full SUMO configuration used for the experiments.
+
+For each scenario (three-way and four-way intersection), it includes:
+
+- Simulation configuration files (`.sumocfg`)
+- Network definition files (`.net.xml`)
+- Traffic flow definitions (`.rou.xml`)
+- Detector configuration files (`.add.xml`)
+- Additional network construction files (nodes, edges, connections, traffic light logic)
+
+These files allow full reproducibility of the simulation environment used in the notebooks.
+
+To manually launch a scenario:
+```bash
+sumo-gui -c sumo/simple/SimpleTraci.sumocfg
+```
+---
+## Intersection Layouts
+
+### Traffic Signal Phases (Three-Way Intersection)
+
+<table align="center" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center" width="50%">
+      <img src="images/simple1.jpg" width="100%">
+    </td>
+    <td align="center" width="50%">
+      <img src="images/simple2.jpg" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="images/simple3.jpg" width="60%">
+    </td>
+  </tr>
+</table>
+
+### Traffic Signal Phases (Four-Way Intersection)
+
+<table align="center" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center" width="50%">
+      <img src="images/complex1.jpg" width="100%">
+    </td>
+    <td align="center" width="50%">
+      <img src="images/complex2.jpg" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="images/complex3.jpg" width="100%">
+    </td>
+    <td align="center" width="50%">
+      <img src="images/complex4.jpg" width="100%">
+    </td>
+  </tr>
+</table>
+
 ## Algorithms Implemented
 
 ### Fixed-Time Controller
@@ -72,8 +132,9 @@ The repository currently consists of two main Jupyter notebooks:
 ### Q-learning (Tabular)
 - Epsilon-greedy exploration with cosine decay
 - Q-table update rule:
-
-    Q(s,a) = Q(s,a) + α ( r + γ max_a' Q(s',a') - Q(s,a) )
+```text
+Q(s,a) = Q(s,a) + α ( r + γ max_a' Q(s',a') - Q(s,a) )
+```
 
 - Minimum green time constraint to prevent unrealistic switching
 

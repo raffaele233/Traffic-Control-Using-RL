@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-06-02 20:01:57 by Eclipse SUMO netedit Version 1.22.0
+<neteditConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
+
+    <input>
+        <sumocfg-file value="/Users/raffaelesimbari/Desktop/tesi/myproject/Traci.sumocfg"/>
+        <route-files value="/Users/raffaelesimbari/Desktop/tesi/myproject/sumoprova.rou.xml"/>
+        <sumo-net-file value="/Users/raffaelesimbari/Desktop/tesi/myproject/Traci.net.xml"/>
+        <node-files value="/Users/raffaelesimbari/Desktop/tesi/myproject/Traci.rou.nod.xml"/>
+        <edge-files value="/Users/raffaelesimbari/Desktop/tesi/myproject/Traci.rou.edg.xml"/>
+        <connection-files value="/Users/raffaelesimbari/Desktop/tesi/myproject/Traci.rou.con.xml"/>
+        <tllogic-files value="/Users/raffaelesimbari/Desktop/tesi/myproject/Traci.rou.tll.xml"/>
+    </input>
+
+    <processing>
+        <offset.disable-normalization value="true"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+    </junctions>
+
+    <netedit>
+        <new-network value="false"/>
+    </netedit>
+
+</neteditConfiguration>
+-->
+
+<nodes version="1.20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/nodes_file.xsd">
+    <location netOffset="0.00,0.00" convBoundary="-90.69,-59.85,65.84,65.46" origBoundary="10000000000.00,10000000000.00,-10000000000.00,-10000000000.00" projParameter="!"/>
+
+    <node id="J10" x="-16.78" y="65.46" type="dead_end"/>
+    <node id="J4" x="-90.69" y="5.17" type="dead_end"/>
+    <node id="J5" x="65.84" y="6.58" type="dead_end"/>
+    <node id="J6" x="-16.06" y="-59.31" type="dead_end"/>
+    <node id="clusterJ7_J8_J9" x="-16.09" y="4.09" type="traffic_light" tl="clusterJ7_J8_J9"/>
+</nodes>
